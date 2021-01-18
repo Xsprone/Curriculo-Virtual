@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #DCDCDC, #2F4F4F);
+}
+
+.intro {
+    color: #2F4F4F;
+    border: 1px solid #2F4F4F;
+}
+
+h3 {
+    text-align: center;
+}
+
+.infos {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(3, 28%);
+    grid-template-rows: minmax(10%, auto);
+}
+
+footer {
+    border: 1px solid #2F4F4F;
+}
